@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Blastoff!</title>
+    <link rel="stylesheet" href='blastoff.css'/>
+    <script src="blast.js"></script>
+</head>
+
+<body>
+    <div id="uat">
+        <img src="UATSpace-1.png">
+    </div>
+    <form id="frmLogin">
+        <fieldset>
+    		<legend>Login</legend>
+    		<label for="fName">First Name:</label>
+			<input type="text" name="fName" id="fName">
+			<span>*</span><br>
+        	<label for="lName">Last Name:</label>
+        	<input type="text" name="lName" id="lName">
+        	<span>*</span><br>
+			<label for="badge">Badge Number:</label>
+			<input type="text" name="badge" id="badge">
+			<span>*</span><br><br>
+            <button id="submit" onClick="login">Submit</button><br>
+		</fieldset>
+        
+    </form>
+    <div id="countdown">
+        
+        <button id="btnLaunch" onClick="StartTheCountDown()">Launch</button>
+        <button id="btnSound" onClick="playSound()">Play Sound</button>
+        <p id="counter">10</p>
+
+    </div>
+</body>
+
+</html>
