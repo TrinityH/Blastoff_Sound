@@ -43,19 +43,3 @@ function StartTheCountDown() {
 
 }
 
-function login() {
-    //Declare Variables
-    let firstName = document.getElementById("fName").value().trim();
-
-    let lastName = document.getElementById("lName").value().trim();
-
-    let badgeNumber = document.getElementById("badge").value().trim();
-
-    if(firstName == "") {
-        document.getElementById("fName").nextSibling.innerHTML = "Enter first name";
-    }
-    else {
-        document.getElementById("fName").nextSibling.innerHTML = "";
-    }
-
-}
